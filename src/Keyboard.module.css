@@ -1,0 +1,25 @@
+.btn{
+    text-transform: uppercase;
+    background: none;
+    border: 2px solid black;
+    font-size: 2rem;
+    width: 100%;
+    aspect-ratio: 1/1;
+    color: black;
+    font-weight: bold;
+}
+
+.btn.active{
+    background-color: rgb(34, 185, 7);
+    color: white;
+}
+
+.btn.inactive{
+    opacity: 0.3;;
+}
+
+.btn:hover:not(:disabled),
+.btn:focus:not(:disabled){
+    background-color: rgb(235, 132, 13);
+    cursor: pointer;
+}
